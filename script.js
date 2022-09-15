@@ -50,7 +50,7 @@ switch (time) {
       break;
    case 15:
       alert('3 часа дня')
-      break
+      break;
    case 16:
       alert('4 часа дня')
       break;
