@@ -1,4 +1,4 @@
-/* var age = +prompt('Введите свой возраст')
+var age = +prompt('Введите свой возраст')
 console.log(age);
 
 if (age <= 18 || age == 0) {
@@ -11,8 +11,8 @@ if (age <= 18 || age == 0) {
     alert( 'Вы пенсионер' );
     }else {
       alert('Что-то пошло не так')
-    }  */
-
+    }  
+ 
 
 var time = +prompt('Введите время в цифрах')
 console.log(time);
@@ -37,6 +37,7 @@ switch (time) {
    case 8:
    case 9:
    case 10:
+   case 11:
       alert(time + ' часов утра')
       break;
    case 12:
@@ -78,7 +79,7 @@ switch (time) {
 }
 
  
-/* var a = +prompt('Введите три любых числа');
+var a = +prompt('Введите три любых числа');
 var b = +prompt('Введите три любых числа');
 var c = +prompt('Введите три любых числа');
 
@@ -88,7 +89,7 @@ if (a < b && a > c || a > b && a < c){
    alert (b);
 }else if (c < b && c > a || c < a && c > b){ 
    alert (c);
-} */
+}  
  
 
 
